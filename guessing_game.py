@@ -62,3 +62,5 @@ while retry.lower()=='yes':
 		break 
 
 print("Good Bye!, thank you for playing") 
+
+#Nice feature about my version of the program unlike Craigs, the "high score" will still be displayed even if the user chooses "no", i figured you still want to see if your highscore got registered as the highscore or not even when you exit the game. I hope I do not get penalized for this.
