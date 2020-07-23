@@ -51,6 +51,9 @@ while retry.lower()=='yes':
 	
 	retry = input("Would you like to play again? [yes/no]\n")
 	
+	while retry.lower() != 'yes' and retry.lower() != 'no':
+		retry = input("Would you like to play again? [yes/no]\n")
+	
 	if check_score<high_score: 
 
 		high_score = check_score
