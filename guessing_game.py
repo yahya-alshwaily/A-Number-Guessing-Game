@@ -16,10 +16,10 @@ def start_game(num_tries):
 		if number_pick < 1 or number_pick > 10:
 			print("Oops! Your number is out of the range of this game, please pick a number between 1 and 10")
 		elif number_pick < secret: 
-			print("It is higher!")
+			print("\nIt is higher!")
 			num_tries +=1
 		elif number_pick > secret:
-			print("It is lower!")
+			print("\nIt is lower!")
 			num_tries +=1
 		else:
 			print(f"You got it!, it took you {num_tries} tries")
