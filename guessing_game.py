@@ -3,7 +3,6 @@ import random
 print("-"*len("Welcome to the Number Guessing Game!") ,"\nWelcome to the Number Guessing Game! \n"+"-"*len("Welcome to the Number Guessing Game!"))
 
 def start_game(num_tries):
-	
 	secret = random.randint(1,10)
 	print(secret) #test
 	number_pick = 0 
@@ -26,7 +25,7 @@ def start_game(num_tries):
 	return num_tries 
 
 retry = 'yes' 
-high_score = 10000 
+high_score = '' 
 while retry.lower()=='yes': 
 	check_score = start_game(1)
 	retry = input("Would you like to play again? [yes/no]\n") 
