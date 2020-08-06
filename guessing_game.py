@@ -1,6 +1,7 @@
 import random
 
-print("-"*len("Welcome to the Number Guessing Game!") ,"\nWelcome to the Number Guessing Game! \n"+"-"*len("Welcome to the Number Guessing Game!"))
+print("-"*len("Welcome to the Number Guessing Game!") ,
+"\nWelcome to the Number Guessing Game! \n"+"-"*len("Welcome to the Number Guessing Game!"))
 
 def start_game(num_tries):
 	secret = random.randint(1,10)
